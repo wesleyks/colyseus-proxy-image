@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@colyseus/proxy@^0.12.9":
-  version "0.12.9"
-  resolved "https://registry.yarnpkg.com/@colyseus/proxy/-/proxy-0.12.9.tgz#39d60032a5bd7f9c668785078c7e442133aaaba2"
-  integrity sha512-fBuYdpu/K1zPkDTWEotks8fxIJL5Pl0Y9fy3GtOEkzyAV8C+GAXNPN3l4DMA/IwLLDnkAEtZXvzHXHcgIKqKhw==
+"@colyseus/proxy@^0.12.11":
+  version "0.12.11"
+  resolved "https://registry.yarnpkg.com/@colyseus/proxy/-/proxy-0.12.11.tgz#b85d1fd047b7ebb647c7cddfcf805f0002586617"
+  integrity sha512-7jsluNN02aqnz8ZZOJeHMkoOA1Nbkz4C80unOLTVqF13UOKYmbJybsxjghbR0IbJRpTB/b3/G1d6q3u0BwXPJA==
   dependencies:
     http-proxy "^1.18.0"
     ioredis "^4.9.0"

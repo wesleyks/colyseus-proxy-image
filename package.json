@@ -1,12 +1,12 @@
 {
   "name": "colyseus-proxy-image",
-  "version": "0.12.9",
+  "version": "0.12.11",
   "description": "docker image for @colyseus/proxy",
   "main": "index.js",
   "repository": "git@github.com:wesleyks/colyseus-proxy-image.git",
   "license": "MIT",
   "dependencies": {
-    "@colyseus/proxy": "^0.12.9"
+    "@colyseus/proxy": "^0.12.11"
   },
   "scripts": {
     "preversion": "git checkout main",
