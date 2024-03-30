@@ -10,6 +10,7 @@
   },
   "scripts": {
     "preversion": "git checkout main",
-    "postversion": "git push --tags"
+    "postversion": "git push --tags",
+    "build": "docker build -t registry.wksun.com/mathrace-proxy:latest . && docker push registry.wksun.com/mathrace-proxy:latest"
   }
 }
