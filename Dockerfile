@@ -2,8 +2,8 @@ FROM node:18-alpine
 
 WORKDIR /usr/src/app
 
-COPY package.json yarn.lock ./
+RUN yarn global add @colyseus/proxy@0.12.11
 
-RUN yarn install --ignore-scripts --frozen-lockfile --production --network-timeout 600000 && yarn cache clean
-
-CMD ["npx", "colyseus-proxy"]
+ENV PORT 3030
+EXPOSE 3030
+CMD ["colyseus-proxy"]
